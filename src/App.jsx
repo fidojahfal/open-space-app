@@ -9,7 +9,7 @@ import RegisterPage from './pages/RegisterPage';
 import DetailPage from './pages/DetailPage';
 import { asyncPreloadProcess } from './states/isPreload/action';
 import { asyncUnsetAuthUser } from './states/authUser/action';
-
+//
 function App() {
   const { authUser = null, isPreload = false } = useSelector(
     (states) => states
