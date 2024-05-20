@@ -1,9 +1,9 @@
-import React from "react";
-import { IoEarthOutline } from "react-icons/io5";
-import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import LoginInput from "../components/LoginInput";
-import { asyncSetAuthUser } from "../states/authUser/action";
+import React from 'react';
+import { IoEarthOutline } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import LoginInput from '../components/LoginInput';
+import { asyncSetAuthUser } from '../states/authUser/action';
 
 function LoginPage() {
   const dispatch = useDispatch(); // @TODO: get dispatch function from store
@@ -23,7 +23,7 @@ function LoginPage() {
       <article className="login-page__main">
         <h2>
           See <strong>The World</strong>, <br />
-          Through Open Space.
+          Through Open Space App.
         </h2>
 
         <LoginInput login={onLogin} />
